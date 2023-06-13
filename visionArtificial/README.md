@@ -1,6 +1,6 @@
 # Visión Artificial
 
-[Atras](./README.md)
+[Atras](../README.md)
 
 [comment]: <> (menu)
 
