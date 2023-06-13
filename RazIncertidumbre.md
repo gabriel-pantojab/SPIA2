@@ -2,3 +2,4 @@
 
 ## ¿Qué es incertidumbre?
 
+##  Redes Bayesianas
