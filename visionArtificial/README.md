@@ -26,6 +26,18 @@
       - [**Unión de Regiones**](#unión-de-regiones)
       - [**Crecimiento de Regiones por agregación de Piexeles**](#crecimiento-de-regiones-por-agregación-de-piexeles)
   - [**Extracción de Características**](#extracción-de-características)
+    - [**Características basadas en bordes**](#características-basadas-en-bordes)
+    - [**Características basadas en texturas**](#características-basadas-en-texturas)
+    - [**Características basadas en formas**](#características-basadas-en-formas)
+    - [**Características basadas en colores**](#características-basadas-en-colores)
+  - [**Clasificación**](#clasificación)
+    - [**Reconocimiento Facial**](#reconocimiento-facial)
+    - [**Eigenfaces**](#eigenfaces)
+    - [**Instancie**](#instancie)
+    - [**Localización de Objetos**](#localización-de-objetos)
+    - [**Uso del Contexto**](#uso-del-contexto)
+  - [**Post Procesamiento**](#post-procesamiento)
+  - [Aplicaciones](#aplicaciones)
 
 La visión artificial desarrolla algoritmos y sistemas que permiten a las computadoras "ver" y entender imagenes y videos.
 
@@ -60,11 +72,9 @@ Las transformaciones morfológicas se encargan de cambiar la forma y estructura 
 
 Dados dos conjuntos $A$ y $B$ de $Z^2$, la dilatación denotada por $A \oplus B$ es el conjunto: $A \oplus B = {c \in E^N | c = a + b}$
 
-![Alt text](./assets/maskDilatacion.png)
-
-![Alt text](./assets/figuraD.png)
-
-![Alt text](./assets/resultD.png)
+|Mascara B|Figura A|A $\oplus$ B|
+|----|----|-----|
+|![Alt text](./assets/maskDilatacion.png)|![Alt text](./assets/figuraD.png)|![Alt text](./assets/resultD.png)|
 
 La dilatación, también llamada “crecimiento”, “llenado”, “expansión”, etc., produce un efecto de engrosamiento de los bordes del objeto.
 
@@ -74,11 +84,9 @@ Dados dos conjuntos...
 
 La erosión pone a cero todos los pixels de la imagen que no contengan completamente al elemento estructurante en su entorno.
 
-![Alt text](./assets/maskErosion.png)
-
-![Alt text](./assets/figuraE.png) 
-
-![Alt text](./assets/resultE.png)
+|Mascara B|Figura A|A $\ominus$ B|
+|----|----|-----|
+|![Alt text](./assets/maskErosion.png)|![Alt text](./assets/figuraE.png)|![Alt text](./assets/resultE.png)|
 
 La erosión reduce los contornos de los objetos. Se utiliza para separar objetos que están unidos por una pequeña parte de sus contornos.
 
@@ -155,6 +163,70 @@ Este algoritmo se basa en la idea de que un contorno es una secuencia de puntos 
 #### **Crecimiento de Regiones por agregación de Piexeles**
 
 ## **Extracción de Características**
+
+Permite identificar y analizar características relevantes de una imagen que pueden ser útiles para la identificación de objetos o patrones en la misma.
+
+### **Características basadas en bordes**
+
+Los métodos basados en bordes pueden ser utilizados para detectar bordes en una imagen y luego utilizar estos bordes para extraer características como la forma y el tamaño de los objetos en la imagen.
+
+### **Características basadas en texturas**
+
+La textura se refiere a los patrones repetitivos de las características de la imagen, como la rugosidad, la suavidad, la granularidad, entre otros.
+
+Utiles en la clasificación de objetos.
+
+### **Características basadas en formas**
+
+Utilizados para extraer características como el área, la relación de aspecto, la circularidad y la simetría de los objetos en la imagen.
+
+Utiles en la clasificación de objetos.
+
+
+### **Características basadas en colores**
+
+Utilizados para extraer características como la distribución de colores en la imagen, la presencia de ciertos colores en la imagen y la relación entre los colores en la imagen.
+
+Utiles en la clasificación de objetos.
+
+## **Clasificación**
+
+La clasificación implica la asignación de etiquetas a las regiones de interés identificadas en la imagen.
+
+### **Reconocimiento Facial**
+
+Es una tecnología de visión artificial que se utiliza para identificar y verificar la identidad de una persona mediante el análisis de características faciales únicas, como la forma de los ojos, la nariz, los labios y la estructura de la cara.
+
+### **Eigenfaces**
+
+Se basa en el concepto de que las imágenes faciales pueden ser representadas como una combinación lineal de componentes básicos o "eigenfaces", que son vectores de características que se derivan de un conjunto de imágenes faciales. Estos eigenfaces se utilizan para encontrar patrones y características distintivas de la cara humana que se pueden utilizar para identificar y reconocer rostros.
+
+### **Instancie**
+
+Identificar objetos o regiones específicas en una imagen o video, de manera que cada objeto o región se pueda analizar y comprender de forma independiente.
+
+### **Localización de Objetos**
+
+Detecta la presencia y ubicación de objetos o regiones de interés en una imagen o video. La localización de objetos puede ser realizada mediante técnicas de segmentación de imagen y análisis de características
+
+### **Uso del Contexto**
+
+Utiliza información adicional sobre el entorno en el que se encuentra un objeto o región de interés para mejorar la precisión de su detección o identificación.
+
+## **Post Procesamiento**
+
+El post procesamiento implica la mejora de la precisión y la calidad de la imagen después de la clasificación. Las técnicas de postprocesamiento comunes incluyen la eliminación de errores de clasificación y la mejora de la resolución de la imagen. Tiene como objetivo refinar los resultados obtenidos a través de la detección o clasificación para obtener una salida más precisa y coherente.
+
+## Aplicaciones
+
+- Inspección de calidad
+- Reconocimiento de objetos
+- Automatización de procesos
+- Realidad aumentada
+- Vehículos autónomos
+- Medicina
+- Agricultura de precisión
+
 
 
 
