@@ -5,7 +5,7 @@
 [comment]: <> (menu)
 
 - [Visión Artificial](#visión-artificial)
-  - [**Historia**](#historia)
+  - [Historia](#historia)
   - [**Aprendizaje Automático**](#aprendizaje-automático)
     - [**Procesamiento de Imágenes**](#procesamiento-de-imágenes)
   - [**Transformaciones Morfológicas**](#transformaciones-morfológicas)
