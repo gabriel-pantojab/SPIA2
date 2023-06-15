@@ -14,6 +14,7 @@
     - [**Desvanecimiento del Gradiente**](#desvanecimiento-del-gradiente)
     - [**Explosión del Gradiente**](#explosión-del-gradiente)
   - [**Long Short-Term Memory “y” Gated Recurrent Unit**](#long-short-term-memory-y-gated-recurrent-unit)
+  - [**Gated Recurrent Unit (GRU)**](#gated-recurrent-unit-gru)
 
 Son un tipo de redes neuronales para procesar datos secuenciales o de series temporales.
 
@@ -117,3 +118,15 @@ Una neurona ***LSTM*** consta de tres puertas:
 
 Y una celda de memoria.
 - **Cell State:** Es la memoria a largo plazo en una red LSTM.
+
+![Alt text](./assets/lstm.png)
+
+## **Gated Recurrent Unit (GRU)**
+
+Las **GRUs** no emplean el estado de célula ( cell state ), solo usan el hidden state para la transferencia de información.
+
+Además, tienen 2 puertas o gates diferenciadas:
+- **Puerta de actualización o update gate:** Controla cuanta información pasada debe fusionarse con la nueva información.
+- **Puerta de reseteo o reset gate:** Controla qué información pasada se debe olvidar en una red GRU, permitiendo que la red "reseteé" su estado interno.
+
+![Alt text](./assets/gru.png)
