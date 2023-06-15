@@ -120,6 +120,8 @@ Este tipo de operación reduce los objetos de una imagen, a un esqueleto de gros
 
 ### **Otras transformaciones**
 
+... :)
+
 ## **Técnicas de Segmentación**
 
 ### **Basada en  Umbralización**
