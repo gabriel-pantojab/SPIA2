@@ -113,8 +113,8 @@ Long-Short Term Memory son una extensión de las redes neuronales recurrentes, q
 Una neurona ***LSTM*** consta de tres puertas:
 
 - **Forget Gate:** Controla qué información anterior se olvida en una celda de memoria.
-- **Input Get:** Controla qué nueva información se ingresa a una celda de memoria.
-- **Output Get:** Controla qué información de la celda de memoria se utiliza como salida.
+- **Input Gate:** Controla qué nueva información se ingresa a una celda de memoria.
+- **Output Gate:** Controla qué información de la celda de memoria se utiliza como salida.
 
 Y una celda de memoria.
 - **Cell State:** Es la memoria a largo plazo en una red LSTM.
