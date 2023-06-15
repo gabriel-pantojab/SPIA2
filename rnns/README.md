@@ -1,5 +1,20 @@
 # **Redes Neuronales Recurrentes**
 
+[commet]: <> (menu)
+- [**Redes Neuronales Recurrentes**](#redes-neuronales-recurrentes)
+  - [**Neurona Recurrente**](#neurona-recurrente)
+  - [**¿Cúando utilizar las Redes Nueronales Recurrentes?**](#cúando-utilizar-las-redes-nueronales-recurrentes)
+  - [**¿Cómo funcionan las Redes Neuronales Recurrentes?**](#cómo-funcionan-las-redes-neuronales-recurrentes)
+  - [**¿Cómo puede predecir el siguiente carácter en la secuencia? ¿Dónde está la memoria de la Neurona?**](#cómo-puede-predecir-el-siguiente-carácter-en-la-secuencia-dónde-está-la-memoria-de-la-neurona)
+  - [**Tipos de Redes Neuronales Recurrentes**](#tipos-de-redes-neuronales-recurrentes)
+  - [**RNN one-to-many**](#rnn-one-to-many)
+  - [**RNN many-to-many**](#rnn-many-to-many)
+  - [**RNN y la retropropagación (backpropagation) a través del tiempo**](#rnn-y-la-retropropagación-backpropagation-a-través-del-tiempo)
+  - [**Problema de las Redes Neuronales Recurrentes**](#problema-de-las-redes-neuronales-recurrentes)
+    - [**Desvanecimiento del Gradiente**](#desvanecimiento-del-gradiente)
+    - [**Explosión del Gradiente**](#explosión-del-gradiente)
+  - [**Long Short-Term Memory “y” Gated Recurrent Unit**](#long-short-term-memory-y-gated-recurrent-unit)
+
 Son un tipo de redes neuronales para procesar datos secuenciales o de series temporales.
 
 La característica principal son sus conexiones recurrentes, este decir la salida de la red en un paso de tiempo se convierte en la entrada para el siguiente paso de tiempo.
