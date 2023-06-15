@@ -17,7 +17,7 @@ El Procesamiento del Lenguaje Natural es el campo de conocimiento de la Intelige
 
 El Procesamiento del Lenguaje Natural (PLN) hace uso de la Inteligencia Artificial y consiste en transformar el lenguaje natural en un lenguaje formal, como el de la programación, que los ordenadores puedan procesar. Se divide en elementos para entender la relacion entre ellos.
 
-El PLN consta de dos fases principales:
+El PLN consta de dos fases principales: procesamiento de datos y el desarrollo de respuestas por medio de algoritmos.
 
 **Procesamiento de datos**
 
