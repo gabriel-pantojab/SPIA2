@@ -74,6 +74,31 @@ La retropropagación se utiliza para calcular el gradiente de una función de er
 
 Esas derivadas son luego utilizadas por el descenso de gradiente, un algoritmo que puede minimizar iterativamente una función dada. Luego, ajusta los pesos hacia arriba o hacia abajo, dependiendo de cuál disminuya el error.
 
+## **Problema de las Redes Neuronales Recurrentes**
+
+### **Desvanecimiento del Gradiente**
+
+Durante cada iteración del entrenamiento de la red, cada uno de los pesos de la red neuronal recibe una actualización proporcionada por las derivadas parciales de la función de error con respecto al peso actual.
+
+El problema del desvanecimiento del gradiente se presenta ya que en algunos casos el
+gradiente se irá haciendo cada vez más pequeño, llegando a un punto donde evite el cambio del peso. En el peor de los casos, esto impediría completamente que la red neuronal siga entrenando.
+
+### **Explosión del Gradiente**
+
+En redes profundas o redes neuronales recurrentes, los gradientes de error pueden acumularse durante una actualización y dar lugar a gradientes muy grandes. Éstos, a su vez, dan lugar a grandes actualizaciones de los pesos de la red y, en consecuencia, a una red inestable. En un caso extremo, los valores de los pesos pueden llegar a ser tan grandes como para desbordarse y dar lugar a valores NaN.
+
+El ***Gradient Clipping*** es una forma de mitigar este problema al limitar el tamaño de los gradientes. La idea básica es establecer un umbral máximo para los valores de los gradientes. Si algún gradiente excede este umbral, se ajusta o se recorta a un valor máximo permitido.
 
 
+## **Long Short-Term Memory “y” Gated Recurrent Unit**
 
+Long-Short Term Memory son una extensión de las redes neuronales recurrentes, que básicamente amplían su memoria para aprender de experiencias importantes que han pasado hace mucho tiempo. Las LSTM permiten a las RNN recordar sus entradas durante un largo período de tiempo. Esto se debe a que LSTM contiene su información en la memoria, que puede considerarse similar a la memoria de un ordenador , en el sentido que una neurona de una LSTM puede leer, escribir y borrar información de su memoria.
+
+Una neurona ***LSTM*** consta de tres puertas:
+
+- **Forget Gate:** Controla qué información anterior se olvida en una celda de memoria.
+- **Input Get:** Controla qué nueva información se ingresa a una celda de memoria.
+- **Output Get:** Controla qué información de la celda de memoria se utiliza como salida.
+
+Y una celda de memoria.
+- **Cell State:** Es la memoria a largo plazo en una red LSTM.
