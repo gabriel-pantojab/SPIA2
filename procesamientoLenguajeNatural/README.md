@@ -1,19 +1,19 @@
-# **Procesamiento de Lenguaje Natural**
+# Procesamiento de Lenguaje Natural
 
 [commet]: <> (menu)
 
-- [**Procesamiento de Lenguaje Natural**](#procesamiento-de-lenguaje-natural)
-  - [**¿Qué es el Procesamiento de Lenguaje Natural?**](#qué-es-el-procesamiento-de-lenguaje-natural)
-    - [**Funcionamiento del Procesamiento de Lenguaje Natural**](#funcionamiento-del-procesamiento-de-lenguaje-natural)
-  - [**Modelos PNL**](#modelos-pnl)
-  - [**Componentes PNL**](#componentes-pnl)
+- [Procesamiento de Lenguaje Natural](#procesamiento-de-lenguaje-natural)
+  - [¿Qué es el Procesamiento de Lenguaje Natural?](#qué-es-el-procesamiento-de-lenguaje-natural)
+    - [Funcionamiento del Procesamiento de Lenguaje Natural](#funcionamiento-del-procesamiento-de-lenguaje-natural)
+  - [Modelos PNL](#modelos-pnl)
+  - [Componentes PNL](#componentes-pnl)
   - [Aplicaciones](#aplicaciones)
 
-## **¿Qué es el Procesamiento de Lenguaje Natural?**
+## ¿Qué es el Procesamiento de Lenguaje Natural?
 
 El Procesamiento del Lenguaje Natural es el campo de conocimiento de la Inteligencia Artificial que se ocupa de investigar la manera de comunicar las máquinas con las personas mediante el uso de lenguas naturales, como el español, el inglés o el chino, debiendo ésta entender las oraciones que le sean proporcionadas.
 
-### **Funcionamiento del Procesamiento de Lenguaje Natural**
+### Funcionamiento del Procesamiento de Lenguaje Natural
 
 El Procesamiento del Lenguaje Natural (PLN) hace uso de la Inteligencia Artificial y consiste en transformar el lenguaje natural en un lenguaje formal, como el de la programación, que los ordenadores puedan procesar. Se divide en elementos para entender la relacion entre ellos.
 
@@ -34,7 +34,7 @@ Consiste en preparar y limpiar los datos de texto para que las máquinas puedan 
 
 - **Sistemas basados en Machine Learning:** Es una rama de la inteligencia artificial basada en la idea de que los sistemas pueden aprender de datos, identificar patrones y tomar decisiones con mínima intervención humana.
 
-## **Modelos PNL**
+## Modelos PNL
 
 **Modelos basados en Reglas**
 
@@ -64,7 +64,7 @@ Capas de Atención:
 - Codificadores
 - Decodificadores
 
-## **Componentes PNL**
+## Componentes PNL
 
 **Análisis morfológico o léxico**
 
